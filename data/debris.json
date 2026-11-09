@@ -1,0 +1,7 @@
+{
+  "debris_objects": [
+    {"id": "DEB-1042", "latitude": -12.4, "longitude": 76.2, "altitude": 548.0, "velocity": 7.55, "inclination": 97.4},
+    {"id": "DEB-2088", "latitude": 34.1, "longitude": -118.2, "altitude": 810.0, "velocity": 7.42, "inclination": 98.1},
+    {"id": "DEB-3310", "latitude": 4.8, "longitude": 12.6, "altitude": 420.0, "velocity": 7.68, "inclination": 51.8}
+  ]
+}
