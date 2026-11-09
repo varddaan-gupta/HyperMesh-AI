@@ -1,0 +1,124 @@
+{
+  "cases": [
+    {
+      "id": "CASE-2024-017",
+      "created_at": "2024-06-18T12:00:00+00:00",
+      "risk_level": "HIGH",
+      "summary": "Close low-Earth orbit encounter with a narrow altitude separation and rapid relative motion.",
+      "features": "altitude difference 3 km relative velocity 7.4 km/s high risk conjunction",
+      "altitude_band": "500 km band",
+      "outcome": "Avoidance maneuver recommended after operator review."
+    },
+    {
+      "id": "CASE-2024-032",
+      "created_at": "2024-09-02T08:30:00+00:00",
+      "risk_level": "MEDIUM",
+      "summary": "Moderate conjunction screening result; trajectories diverged after state refresh.",
+      "features": "altitude difference 18 km relative velocity 4.2 km/s medium risk",
+      "altitude_band": "550 km band",
+      "outcome": "Tracking update reduced estimated risk."
+    },
+    {
+      "id": "CASE-2025-006",
+      "created_at": "2025-02-11T16:45:00+00:00",
+      "risk_level": "LOW",
+      "summary": "Objects shared a broad altitude region but had a large projected miss distance.",
+      "features": "altitude difference 42 km relative velocity 1.1 km/s low risk",
+      "altitude_band": "800 km band",
+      "outcome": "Routine monitoring continued."
+    },
+    {
+      "id": "HM-20261109084724",
+      "created_at": "2026-11-09T08:47:24.768987+00:00",
+      "risk_level": "LOW",
+      "summary": "This is a low-risk screening result with a modeled collision probability of 0.0%. The closest-approach estimate is 14.7 km in approximately 0.80 hours. The main indicators are that the altitude separation is small and relative velocity is comparatively low (0.07 km/s). The current scenario resembles 3 local historical cases; 1 share the LOW risk category. This hackathon prototype uses simplified linear propagation and is not an operational conjunction assessment.",
+      "features": "altitude difference 2.0 km relative velocity 0.07 km/s",
+      "altitude_band": "500 km band",
+      "outcome": "screening estimate; no confirmed collision outcome"
+    },
+    {
+      "id": "HM-20261109090805",
+      "created_at": "2026-11-09T09:08:05.508051+00:00",
+      "risk_level": "LOW",
+      "summary": "This is a low-risk screening result with a modeled collision probability of 0.0%. The closest-approach estimate is 14.7 km in approximately 0.80 hours. The main indicators are that the altitude separation is small and relative velocity is comparatively low (0.07 km/s). The current scenario resembles 3 local historical cases; 2 share the LOW risk category. This hackathon prototype uses simplified circular-orbit propagation and is not an operational conjunction assessment.",
+      "features": "altitude difference 2.0 km relative velocity 0.07 km/s",
+      "similar_case_ids": [
+        "CASE-2025-006",
+        "HM-20261109084724",
+        "CASE-2024-017"
+      ],
+      "altitude_band": "500 km band",
+      "outcome": "screening estimate; no confirmed collision outcome"
+    },
+    {
+      "id": "HM-20261109092440",
+      "created_at": "2026-11-09T09:24:40.926505+00:00",
+      "risk_level": "LOW",
+      "summary": "This is a low-risk screening result with a modeled collision probability of 0.0%. The closest-approach estimate is 13.8 km in approximately 0.78 hours. The main indicators are that the altitude separation is small and relative velocity is comparatively low (0.06 km/s). The current scenario resembles 3 local historical cases; 2 share the LOW risk category. This hackathon prototype uses simplified circular-orbit propagation and is not an operational conjunction assessment.",
+      "features": "altitude difference 2.0 km relative velocity 0.06 km/s",
+      "similar_case_ids": [
+        "CASE-2024-017",
+        "CASE-2025-006",
+        "HM-20261109084724"
+      ],
+      "altitude_band": "500 km band",
+      "outcome": "screening estimate; no confirmed collision outcome"
+    }
+  ],
+  "generated_reports": [
+    {
+      "created_at": "2026-11-09T08:47:24.784402+00:00",
+      "risk_level": "LOW",
+      "satellites": [
+        "AURORA-1",
+        "ORBITAL-7"
+      ],
+      "report": "HyperMesh AI Mission Summary \u2014 AURORA-1 / ORBITAL-7\nRisk: LOW; collision probability: 0.0%; confidence: 80%; closest approach: 14.74 km. Suggested action: Maintain routine monitoring; no immediate maneuver is indicated. Explanation: This is a low-risk screening result with a modeled collision probability of 0.0%. The closest-approach estimate is 14.7 km in approximately 0.80 hours. The main indicators are that the altitude separation is small and relative velocity is comparatively low (0.07 km/s). The current scenario resembles 3 local historical cases; 1 share the LOW risk category. This hackathon prototype uses simplified linear propagation and is not an operational conjunction assessment."
+    },
+    {
+      "created_at": "2026-11-09T08:47:47.402685+00:00",
+      "risk_level": "LOW",
+      "satellites": [
+        "AURORA-1",
+        "ORBITAL-7"
+      ],
+      "report": "HyperMesh AI Mission Summary \u2014 AURORA-1 / ORBITAL-7\nRisk: LOW; collision probability: 0.0%; confidence: 80%; closest approach: 14.74 km. Suggested action: Maintain routine monitoring; no immediate maneuver is indicated. Explanation: This is a low-risk screening result with a modeled collision probability of 0.0%. The closest-approach estimate is 14.7 km in approximately 0.80 hours. The main indicators are that the altitude separation is small and relative velocity is comparatively low (0.07 km/s). The current scenario resembles 3 local historical cases; 1 share the LOW risk category. This hackathon prototype uses simplified linear propagation and is not an operational conjunction assessment."
+    },
+    {
+      "created_at": "2026-11-09T09:08:05.514487+00:00",
+      "risk_level": "LOW",
+      "satellites": [
+        "AURORA-1",
+        "ORBITAL-7"
+      ],
+      "report": "HyperMesh AI Mission Summary \u2014 AURORA-1 / ORBITAL-7\nRisk: LOW; collision probability: 0.0%; confidence: 80%; closest approach: 14.74 km. Suggested action: Maintain routine monitoring; no immediate maneuver is indicated. Explanation: This is a low-risk screening result with a modeled collision probability of 0.0%. The closest-approach estimate is 14.7 km in approximately 0.80 hours. The main indicators are that the altitude separation is small and relative velocity is comparatively low (0.07 km/s). The current scenario resembles 3 local historical cases; 2 share the LOW risk category. This hackathon prototype uses simplified circular-orbit propagation and is not an operational conjunction assessment."
+    },
+    {
+      "created_at": "2026-11-09T09:08:46.166803+00:00",
+      "risk_level": "LOW",
+      "satellites": [
+        "AURORA-1",
+        "ORBITAL-7"
+      ],
+      "report": "HyperMesh AI Mission Summary \u2014 AURORA-1 / ORBITAL-7\nRisk: LOW; collision probability: 0.0%; confidence: 80%; closest approach: 14.74 km. Suggested action: Maintain routine monitoring; no immediate maneuver is indicated. Explanation: This is a low-risk screening result with a modeled collision probability of 0.0%. The closest-approach estimate is 14.7 km in approximately 0.80 hours. The main indicators are that the altitude separation is small and relative velocity is comparatively low (0.07 km/s). The current scenario resembles 3 local historical cases; 2 share the LOW risk category. This hackathon prototype uses simplified circular-orbit propagation and is not an operational conjunction assessment."
+    },
+    {
+      "created_at": "2026-11-09T09:21:41.919030+00:00",
+      "risk_level": "LOW",
+      "satellites": [
+        "AURORA-1",
+        "ORBITAL-7"
+      ],
+      "report": "HyperMesh AI Mission Summary \u2014 AURORA-1 / ORBITAL-7\nRisk: LOW; collision probability: 0.0%; confidence: 80%; closest approach: 13.81 km. Suggested action: Maintain routine monitoring; no immediate maneuver is indicated. Explanation: "
+    },
+    {
+      "created_at": "2026-11-09T09:24:40.932422+00:00",
+      "risk_level": "LOW",
+      "satellites": [
+        "AURORA-1",
+        "ORBITAL-7"
+      ],
+      "report": "HyperMesh AI Mission Summary \u2014 AURORA-1 / ORBITAL-7\nRisk: LOW; collision probability: 0.0%; confidence: 80%; closest approach: 13.81 km. Suggested action: Maintain routine monitoring; no immediate maneuver is indicated. Explanation: This is a low-risk screening result with a modeled collision probability of 0.0%. The closest-approach estimate is 13.8 km in approximately 0.78 hours. The main indicators are that the altitude separation is small and relative velocity is comparatively low (0.06 km/s). The current scenario resembles 3 local historical cases; 2 share the LOW risk category. This hackathon prototype uses simplified circular-orbit propagation and is not an operational conjunction assessment."
+    }
+  ]
+}

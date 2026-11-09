@@ -1,0 +1,6 @@
+{
+  "satellites": [
+    {"name": "AURORA-1", "latitude": 18.5, "longitude": 42.0, "altitude": 550.0, "velocity": 7.60, "inclination": 51.6},
+    {"name": "ORBITAL-7", "latitude": 18.8, "longitude": 42.3, "altitude": 552.0, "velocity": 7.58, "inclination": 52.0}
+  ]
+}
