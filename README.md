@@ -57,3 +57,5 @@ heuristic uncertainty envelope and confidence score. It is not a validated
 collision probability, full orbital propagator, or flight-safety system.
 Operational decisions require authoritative ephemerides, covariance data, and
 review by qualified flight-dynamics personnel.
+
+to install the requirement , run : pip install -r requirements.txt    in your terminal to make things work
